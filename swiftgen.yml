@@ -1,0 +1,9 @@
+input_dir: NintendoGallery/Resources/
+output_dir: NintendoGallery/Resources/SwiftGen
+xcassets:
+  inputs:
+    - Images.xcassets
+    - Colors.xcassets
+  outputs:
+    templateName: swift4
+    output: Assets.swift
