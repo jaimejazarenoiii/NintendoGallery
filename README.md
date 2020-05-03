@@ -20,6 +20,7 @@ This will:
   * Install **Gems**
   * Install **Cocoapods**
   * Build **Xcode**
+  * Run tests using **Fastlane**
 
 ## Architecture
 
