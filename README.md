@@ -1,5 +1,31 @@
 # Nintendo Gallery
 
+## Colors
+
+* Default: #F0C40F
+* DefaultDark: #273238
+
+## UI Development
+
+> Programmatic implementation
+
+## Info
+
+All fonts and sizes are default.
+
+Uses `ApplicationCoordinator` for handling view navigation
+
+## ViewControllers
+
+* HomeViewController
+    - Show's all character in list using `tableView`
+* ShowcaseViewController
+    - Display the character's image in full size
+* WebViewController
+    - Display webview with pre selected query with the value of the `gameSeries`
+        field from the character. Default landing page is the Images tab in
+        google.
+
 ## Requirements
    * ">= iOS 13"
    * ">= Xcode 11
