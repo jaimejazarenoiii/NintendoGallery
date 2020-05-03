@@ -33,6 +33,9 @@
 		B393CBF1245E231100B8C0F6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393CBF0245E231100B8C0F6 /* WebViewController.swift */; };
 		B393CBF3245E234200B8C0F6 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393CBF2245E234200B8C0F6 /* WebViewModel.swift */; };
 		B393CBF5245E23C300B8C0F6 /* WebViewController+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393CBF4245E23C300B8C0F6 /* WebViewController+View.swift */; };
+		B393CBF7245E2AE800B8C0F6 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393CBF6245E2AE800B8C0F6 /* HomeViewModelTests.swift */; };
+		B393CBFC245E37E100B8C0F6 /* ShowcaseViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393CBFB245E37E100B8C0F6 /* ShowcaseViewModelTests.swift */; };
+		B393CC01245E4AB900B8C0F6 /* WebViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393CC00245E4AB800B8C0F6 /* WebViewModelTests.swift */; };
 		B4E7642B88468BEA0F26DB5C /* libPods-NintendoGalleryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C22C0378CDCDD810AD0DD /* libPods-NintendoGalleryTests.a */; };
 		EE1B03B60D3AD0F35925D795 /* libPods-NintendoGallery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42605447789C487D6803381 /* libPods-NintendoGallery.a */; };
 /* End PBXBuildFile section */
@@ -82,6 +85,9 @@
 		B393CBF0245E231100B8C0F6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B393CBF2245E234200B8C0F6 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
 		B393CBF4245E23C300B8C0F6 /* WebViewController+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+View.swift"; sourceTree = "<group>"; };
+		B393CBF6245E2AE800B8C0F6 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		B393CBFB245E37E100B8C0F6 /* ShowcaseViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseViewModelTests.swift; sourceTree = "<group>"; };
+		B393CC00245E4AB800B8C0F6 /* WebViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModelTests.swift; sourceTree = "<group>"; };
 		BEC7E8F80A42D9FA499BF3E9 /* Pods-NintendoGalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NintendoGalleryTests.release.xcconfig"; path = "Target Support Files/Pods-NintendoGalleryTests/Pods-NintendoGalleryTests.release.xcconfig"; sourceTree = "<group>"; };
 		C795AF9FB0B9FC870A1ACEA9 /* Pods-NintendoGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NintendoGallery.release.xcconfig"; path = "Target Support Files/Pods-NintendoGallery/Pods-NintendoGallery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,7 +171,10 @@
 			isa = PBXGroup;
 			children = (
 				B393CBB2245DF3A200B8C0F6 /* NintendoGalleryTests.swift */,
+				B393CBF6245E2AE800B8C0F6 /* HomeViewModelTests.swift */,
+				B393CBFB245E37E100B8C0F6 /* ShowcaseViewModelTests.swift */,
 				B393CBB4245DF3A200B8C0F6 /* Info.plist */,
+				B393CC00245E4AB800B8C0F6 /* WebViewModelTests.swift */,
 			);
 			path = NintendoGalleryTests;
 			sourceTree = "<group>";
@@ -534,6 +543,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B393CBB3245DF3A200B8C0F6 /* NintendoGalleryTests.swift in Sources */,
+				B393CC01245E4AB900B8C0F6 /* WebViewModelTests.swift in Sources */,
+				B393CBF7245E2AE800B8C0F6 /* HomeViewModelTests.swift in Sources */,
+				B393CBFC245E37E100B8C0F6 /* ShowcaseViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

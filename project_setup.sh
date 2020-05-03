@@ -69,7 +69,11 @@ bundle exec pod install --verbose
 
 # Build xcode
 echo "🛠  Build xcode 🛠 \n"
-xcodebuild build -workspace VenCHUR.xcworkspace -scheme VenCHUR
+xcodebuild build -workspace NintendoGallery.xcworkspace -scheme NintendoGallery
+
+# Run tests using fastlane
+echo "📱 Run unit tests 📱"
+bundle exec fastlane tests --verbose
 
 # Display success message
 echo "🥳  Successfully setup project 🥳"

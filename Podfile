@@ -6,6 +6,7 @@ def default_pods
 
   pod 'Kingfisher', '~> 5.0'
   pod 'ReactiveCocoa', '~> 10.1'
+  pod 'Result', '~> 5.0'
   pod 'SnapKit', '~> 5.0.0'
   pod 'SwiftGen', '~> 6.0'
   pod 'SwiftLint'

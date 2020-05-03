@@ -11,7 +11,7 @@ import Foundation
 struct Character: Codable {
     var amiibo: [Amiibo]
 
-    struct Amiibo: Codable {
+    struct Amiibo: Codable, Equatable {
         var amiiboSeries: String
         var character: String
         var gameSeries: String
